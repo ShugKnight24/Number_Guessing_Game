@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
   <title>The Number Guessing Game</title>
 </head>
 <body>
-  <h1>The Random Number Generator</h1>
-  <p>Try your luck at my number guessing game. My program generates a random number between 1-10, and you have to guess what it is. (Don't worry, my game will give you hints!)</p>
-  <p onclick="guessNumber()">Click here to try</p>
-  <h2 id="result"></h2>
+  <div id="main">
+    <h1>The Random Number Generator</h1>
+    <p>Press the button below to try your luck at my number guessing game. My program generates a random number between 1-10, and you have to guess what it is. (Don't worry, my game will give you hints!)</p>
+    <p>Click <a href="#" onclick="guessNumber()">here</a> if you want to play</p>
+    <h2 id="result"></h2>
+  </div>
   <script src="scripts.js" charset="utf-8"></script>
 </body>
 </html>

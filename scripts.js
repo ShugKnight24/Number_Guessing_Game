@@ -10,12 +10,12 @@ Use parseInt because otherwise you would return a string and userNumber would ne
     } while (userNumber !== randomNumber) {
         if (userNumber > randomNumber){
         userNumber = parseInt(prompt("Nope! The number I'm thinking of is lower than what you guessed. Try again."));
-      } else if (userNumber < randomNumber){
-      userNumber = parseInt(prompt("Nope! The number I'm thinking of is higher than what you guessed. Try again."));
-      } else if (randomNumber === userNumber){
-      document.getElementById("result").innerText ="Good Work! Way to stick with it!";
-    } else {
-      userNumber = parseInt(prompt("You have enter a number between 1 and 10!"));
+        } else if (userNumber < randomNumber){
+          userNumber = parseInt(prompt("Nope! The number I'm thinking of is higher than what you guessed. Try again."));
+        } else if (randomNumber === userNumber){
+          document.getElementById("result").innerText ="Good Work! Way to stick with it!";
+        } else {
+          userNumber = parseInt(prompt("You have enter a number between 1 and 10!"));
     }
   }
 }

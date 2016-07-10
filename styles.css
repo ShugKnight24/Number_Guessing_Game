@@ -1,0 +1,14 @@
+#main h1 {
+  font-size: 300%;
+  color: blue;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+#main p {
+  font-size: 28px;
+}
+
+#main h2 {
+  font-size: 24px;
+  color: red;
+}
