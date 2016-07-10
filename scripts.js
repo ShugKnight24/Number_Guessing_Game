@@ -14,7 +14,7 @@ function guessNumber() {
 
 /*** If user guessed the random number on the first attempt ***/
   if (userNumber === randomNumber) {
-      document.getElementById("result").innerText = "That was a lucky guess... You must have read my mind?";
+      document.getElementById("result").innerText = "Was that a lucky guess? ... You must have read my mind!";
     }
 /*** While Loop for if they are unable to get the right answer ***/
         while (userNumber !== randomNumber){
@@ -23,9 +23,9 @@ function guessNumber() {
           } else if (userNumber < randomNumber){
             userNumber = getNumber("Nope! The number I'm thinking of is higher than what you guessed. Try again.");
           }
-  }
 /*** When user eventually gets to the final answer  ***/
-    document.getElementById("result").innerText ="Good Work! Way to stick with it!";
+  document.getElementById("result").innerText ="Good Work! Way to stick with it!";
+  }
 }
 
 /*** A function within a function --- Gets a number from the user between 1 and 10 ***/
